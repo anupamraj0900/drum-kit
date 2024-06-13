@@ -28,31 +28,31 @@ document.addEventListener("keypress", function(event) {
 function makeSound(key) {
     	switch(key){
     		case "w":
-    			audio=new Audio("/Users/anupamraj/Downloads/moonlight-films-main/s03/drum kit/sounds/crash.mp3");
+    			audio=new Audio("drum-kit/sounds/crash.mp3");
     			audio.play();
     		break;
     		case "a":
-    			audio=new Audio("/Users/anupamraj/Downloads/moonlight-films-main/s03/drum kit/sounds/kick-bass.mp3");
+    			audio=new Audio("drum-kit/sounds/kick-bass.mp3");
     			audio.play();
     		break;
     		case "s":
-    			audio=new Audio("/Users/anupamraj/Downloads/moonlight-films-main/s03/drum kit/sounds/snare.mp3");
+    			audio=new Audio("drum-kit/sounds/snare.mp3");
     			audio.play();
     		break;
     		case "d":
-    			audio=new Audio("/Users/anupamraj/Downloads/moonlight-films-main/s03/drum kit/sounds/tom-1.mp3");
+    			audio=new Audio("drum-kit/sounds/tom-1.mp3");
     			audio.play();
     		break;
     		case "j":
-    			audio=new Audio("/Users/anupamraj/Downloads/moonlight-films-main/s03/drum kit/sounds/tom-2.mp3");
+    			audio=new Audio("drum-kit/sounds/tom-2.mp3");
     			audio.play();
     		break;
     		case "k":
-    			audio=new Audio("/Users/anupamraj/Downloads/moonlight-films-main/s03/drum kit/sounds/tom-3.mp3");
+    			audio=new Audio("drum-kit/sounds/tom-3.mp3");
     			audio.play();
     		break;
     		case "l":
-    			audio=new Audio("/Users/anupamraj/Downloads/moonlight-films-main/s03/drum kit/sounds/tom-4.mp3");
+    			audio=new Audio("drum-kit/sounds/tom-4.mp3");
     			audio.play();
     		break;
     		default: console.log(key);
